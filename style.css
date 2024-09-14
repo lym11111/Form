@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background: linear-gradient(90deg, rgba(207,219,228,1) 0%, rgba(255,206,216,1) 50%, rgba(220,243,255,1) 100%);
+    font-family: "Montserrat", sans-serif;
+}
+main{
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px 50px 10px 60px;
+    margin: 70px 250px 70px 250px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    position: relative;
+    z-index: -2;
+}
+iframe{
+    display: flex;
+    justify-content: flex-end;
+   display: inline;
+    width: 638px;
+height: 819px;
+top: 51px;
+left: 710px;
+gap: 0px;
+opacity: 0px;
+z-index: 1;
+padding-top:20px ;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width:  530px;
+height: Fixed (55px)px;
+padding: 12px 0px 12px 0px;
+gap: 12px;
+opacity: 0px;
+margin: 15px 0px 15px 0px;
+color: #737B7D;
+border-left: none;
+border-top:none ;
+border-right: none;
+}
+span{
+    color: #6DE1C2;
+}
+input::placeholder{
+   color: #8E8E8E;
+}
+div{
+    border: #8E8E8E 1px dashed;
+    width: 530px;
+}
+.postcode{
+   display: inline-block;
+   margin: 10px 0px 10px 14px;
+   width: 117px;
+   height: Fixed (55px)px;
+padding: 12px 0px 12px 0px;
+gap: 12px;
+opacity: 0px;
+border-left: none;
+border-top:none ;
+border-right: none;
+}
+.city{
+    display: inline-block;
+    width: 390px;
+    margin: 10px 0px 10px 0px ;
+    height: Fixed (55px)px;
+padding: 12px 0px 12px 0px;
+gap: 12px;
+opacity: 0px;
+border-left: none;
+border-top:none ;
+border-right: none;
+}
+.Submit{
+    width:  531px;
+    height: Hug (54px)px;
+    top: 763px;
+    left: 97px;
+    padding: 16px 0px 16px 0px;
+    gap: 10px;
+    border-radius: 10px ;
+    opacity: 0px;
+background: none;    
+background-color: #0982FE;
+;
+color: white;
+display: flex;
+flex-wrap: wrap;
+margin: 20px 0px 20px 0px ;
+}
+.tick{
+display: flex;
+justify-content: flex-start;
+display: inline;
+}
+.p{
+font-size: 13px;
+font-weight: 400;
+line-height: 20.8px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+.info{
+    border: none;
+    display: inline;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 5px;
+}
+img{
+    padding: 15px;
+    width:30px;
+    height: 30px;
+}
+.help{
+    display: inline;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.upload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0px;
+}
+.Contact{
+font-size: 13px;
+line-height: 20px;
+letter-spacing: 0.02em;
+color: #DD5471;
+}
+.contact-header{
+   color: black;
+font-weight: 600;
+}
+.bg-aqua{
+    background-color: #6DE1C2;
+    width: 419px;
+    height: 918px;
+    border-radius: 0 50px 50px 0;
+    border: none;
+    position: absolute;
+    z-index: -1;
+    top: -2px;
+    right: -40px;
+}
